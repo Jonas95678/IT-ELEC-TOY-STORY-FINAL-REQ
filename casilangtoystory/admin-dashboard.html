@@ -187,24 +187,6 @@
                         </button>
                     </div>
 
-                    <!-- Search/Filter Bar -->
-                    <div class="filter-bar glassmorphism-card">
-                        <div class="filter-group">
-                            <input 
-                                type="text" 
-                                class="filter-input glass-input" 
-                                placeholder="Search movies..."
-                                id="movieSearch"
-                            >
-                            <select class="filter-select glass-input" id="movieFilter">
-                                <option value="">All Ratings</option>
-                                <option value="G">G</option>
-                                <option value="PG">PG</option>
-                                <option value="PG-13">PG-13</option>
-                            </select>
-                        </div>
-                    </div>
-
                     <!-- Movies Table -->
                     <div class="table-container glassmorphism-card">
                         <table class="admin-table">
@@ -213,7 +195,6 @@
                                     <th>ID</th>
                                     <th>Title</th>
                                     <th>Release Year</th>
-                                    <th>Rating</th>
                                     <th>Poster Preview</th>
                                     <th>Actions</th>
                                 </tr>
@@ -223,7 +204,6 @@
                                     <td>1</td>
                                     <td>Toy Story</td>
                                     <td>1995</td>
-                                    <td><span class="rating-badge rating-g">G</span></td>
                                     <td>
                                         <div class="poster-preview">
                                             <img src="img/toystory1.webp" alt="Toy Story Poster">
@@ -244,7 +224,6 @@
                                     <td>2</td>
                                     <td>Toy Story 2</td>
                                     <td>1999</td>
-                                    <td><span class="rating-badge rating-g">G</span></td>
                                     <td>
                                         <div class="poster-preview">
                                             <img src="img/Toy_Story_2_-_Poster.webp" alt="Toy Story 2 Poster">
@@ -265,7 +244,6 @@
                                     <td>3</td>
                                     <td>Toy Story 3</td>
                                     <td>2010</td>
-                                    <td><span class="rating-badge rating-g">G</span></td>
                                     <td>
                                         <div class="poster-preview">
                                             <img src="img/toystory3.jpg" alt="Toy Story 3 Poster">
@@ -286,7 +264,6 @@
                                     <td>4</td>
                                     <td>Toy Story 4</td>
                                     <td>2019</td>
-                                    <td><span class="rating-badge rating-g">G</span></td>
                                     <td>
                                         <div class="poster-preview">
                                             <img src="img/toystory4.jpg" alt="Toy Story 4 Poster">
@@ -342,24 +319,6 @@
                         </button>
                     </div>
 
-                    <!-- Search/Filter Bar -->
-                    <div class="filter-bar glassmorphism-card">
-                        <div class="filter-group">
-                            <input 
-                                type="text" 
-                                class="filter-input glass-input" 
-                                placeholder="Search characters..."
-                                id="characterSearch"
-                            >
-                            <select class="filter-select glass-input" id="characterFilter">
-                                <option value="">All Roles</option>
-                                <option value="Protagonist">Protagonist</option>
-                                <option value="Sidekick">Sidekick</option>
-                                <option value="Antagonist">Antagonist</option>
-                            </select>
-                        </div>
-                    </div>
-
                     <!-- Characters Table -->
                     <div class="table-container glassmorphism-card">
                         <table class="admin-table">
@@ -368,7 +327,7 @@
                                     <th>ID</th>
                                     <th>Avatar</th>
                                     <th>Name</th>
-                                    <th>Role Title</th>
+                                    <th>Character Role</th>
                                     <th>Quote Preview</th>
                                     <th>Actions</th>
                                 </tr>
@@ -382,7 +341,7 @@
                                         </div>
                                     </td>
                                     <td>Woody</td>
-                                    <td><span class="role-badge role-protagonist">Protagonist</span></td>
+                                    <td><p class="character-role">The Cowboy Leader</p></td>
                                     <td class="quote-preview">"You've got a friend in me..."</td>
                                     <td>
                                         <div class="action-buttons">
@@ -403,7 +362,7 @@
                                         </div>
                                     </td>
                                     <td>Buzz Lightyear</td>
-                                    <td><span class="role-badge role-protagonist">Protagonist</span></td>
+                                    <td><p class="character-role">Space Ranger</p></td>
                                     <td class="quote-preview">"To infinity and beyond!"</td>
                                     <td>
                                         <div class="action-buttons">
@@ -424,7 +383,7 @@
                                         </div>
                                     </td>
                                     <td>Jessie</td>
-                                    <td><span class="role-badge role-sidekick">Sidekick</span></td>
+                                    <td><p class="character-role">The Yodeling Cowgirl</p></td>
                                     <td class="quote-preview">"When somebody loves you..."</td>
                                     <td>
                                         <div class="action-buttons">
